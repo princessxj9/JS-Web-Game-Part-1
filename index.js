@@ -13,6 +13,7 @@ newImage('assets/tree.png' ,200, 300)
 newImage('assets/pillar.png' ,350 , 100)
 newImage('assets/crate.png', 150, 200 )
 newImage('assets/well.png', 500, 425 )
+
 newImage('assets/sword.png', 500, 405)
 newImage('assets/staff.png' ,165, 185)
 newImage('assets/sheild.png' ,600, 100)
@@ -23,3 +24,7 @@ object.addEventListener('dblclick', () => {
  object.remove()
 })
 }
+// i was copy and patsing the 'newImage' and was going to change it to items for these three and i for got im sorry//
+newItem('assets/sword.png', 500, 405)
+newItem('assets/staff.png' ,165, 185)
+newItem('assets/sheild.png' ,600, 100)
