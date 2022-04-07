@@ -14,10 +14,6 @@ newImage('assets/pillar.png' ,350 , 100)
 newImage('assets/crate.png', 150, 200 )
 newImage('assets/well.png', 500, 425 )
 
-newImage('assets/sword.png', 500, 405)
-newImage('assets/staff.png' ,165, 185)
-newImage('assets/sheild.png' ,600, 100)
-
 function newItem(url, left, bottom){
 let object = newImage(left, url, bottom)
 object.addEventListener('dblclick', () => {
