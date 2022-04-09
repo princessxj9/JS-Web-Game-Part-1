@@ -1,4 +1,4 @@
-function newImage(left, bottom, url){
+function newImage(url, left, bottom){
     let object = document.createElement('img')
     object.src = url
     object.style.position = 'fixed'
